@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de multihilos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tiempo de ejecución: <span id="contador"></span></h1>
+    
+    <div class="buttons-container">
+        <button id="btnEnviarCorreosSinMultihilos" name="btnEnviarCorreosSinMultihilos">Enviar correos sin multihilos</button>
+        <button id="btnEnviarConMultihilos">Enviar correos con multihilos</button>
+    </div>
+
+    <div id="container"></div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
